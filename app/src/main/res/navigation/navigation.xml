@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.boa.TitleFragment"
+        android:label="TitleFragment">
+        <action
+            android:id="@+id/action_titleFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.boa.WelcomeFragment"
+        android:label="WelcomeFragment" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.boa.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/agencesGabFragment"
+        android:name="com.example.boa.AgencesGabFragment"
+        android:label="fragment_agences_gab"
+        tools:layout="@layout/fragment_agences_gab" />
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.boa.CardFragment"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.boa.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.boa.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.example.boa.MessagesFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/modelFragment"
+        android:name="com.example.boa.ModelFragment"
+        android:label="fragment_model"
+        tools:layout="@layout/fragment_model" />
+    <fragment
+        android:id="@+id/operationsFragment"
+        android:name="com.example.boa.OperationsFragment"
+        android:label="fragment_operations"
+        tools:layout="@layout/fragment_operations" />
+    <fragment
+        android:id="@+id/productsServicesFragment"
+        android:name="com.example.boa.ProductsServicesFragment"
+        android:label="fragment_products_services"
+        tools:layout="@layout/fragment_products_services" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.boa.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/toolsFragment"
+        android:name="com.example.boa.ToolsFragment"
+        android:label="fragment_tools"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.example.boa.TransferFragment"
+        android:label="fragment_transfer"
+        tools:layout="@layout/fragment_transfer" />
+</navigation>

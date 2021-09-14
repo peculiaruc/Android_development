@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/operationsFragment"
+        android:title="@string/drawer_operation" />
+    <item
+        android:id="@+id/transferFragment"
+        android:title="@string/drawer_tran" />
+    <item
+        android:id="@+id/accountFragment"
+        android:title="@string/drawer_acc" />
+    <item
+        android:id="@+id/cardFragment"
+        android:title="@string/drawer_card" />
+    <item
+        android:id="@+id/informationFragment"
+        android:title="@string/drawer_information" />
+    <item
+        android:id="@+id/agencyFragment"
+        android:title="@string/drawer_agency" />
+    <item
+        android:id="@+id/actualitiesFragment"
+        android:title="@string/drawer_actualities" />
+    <item
+        android:id="@+id/productsFragment"
+        android:title="@string/drawer_product" />
+    <item
+        android:id="@+id/contactsFragment"
+        android:title="@string/drawer_cont" />
+    <item
+        android:id="@+id/modelFragment"
+        android:title="@string/drawer_model" />
+
+</menu>
